@@ -1,0 +1,282 @@
+[
+  {
+    "name": "RAI 1",
+    "url": "//ok.ru/videoembed/1846640320228?nochat=1&autoplay=1",
+    "type": "general",
+    "logo": "https://logos.streamsites.eu/2558_rai-uno_overview.png",
+    "tvGuide": "https://www.staseraintv.com/programmi_stasera_rai1.html"
+  },
+  {
+    "name": "RAI 2",
+    "url": "//ok.ru/videoembed/1838750703332?nochat=1&amp;autoplay=1",
+    "type": "general",
+    "logo": "https://logos.streamsites.eu/2559_rai-due_overview.png",
+    "tvGuide": "https://www.staseraintv.com/programmi_stasera_rai2.html"
+  },
+  {
+    "name": "RAI 3",
+    "url": "https://streamcdn.to/e/xdz4d0i03emqth",
+    "type": "general",
+    "logo": "https://logos.streamsites.eu/2560_rai-tre_overview.png",
+    "tvGuide": "https://www.staseraintv.com/programmi_stasera_rai3.html"
+  },
+  {
+    "name": "RAI 4",
+    "url": "//ok.ru/videoembed/1831973560036?nochat=1&autoplay=1",
+    "type": "general",
+    "logo": "https://logos.streamsites.eu/2673_rai-4_overview.png",
+    "tvGuide": "https://www.staseraintv.com/programmi_stasera_rai4.html"
+  },
+  {
+    "name": "RAI 5",
+    "url": "https://easysite.one/FWD_ultimate-video-player/start/Rai5.php",
+    "type": "general",
+    "logo": "https://logos.streamsites.eu/2768_rai-5_overview.png",
+    "tvGuide": "https://www.staseraintv.com/programmi_stasera_rai5.html"
+  },
+  {
+    "name": "RAI MOVIE",
+    "url": "https://easysite.one/z/Player/embed/Native/RaiMovie.php",
+    "type": "movie",
+    "logo": "https://logos.streamsites.eu/3415_raimovie_overview.png",
+    "tvGuide": "https://www.staseraintv.com/programmi_stasera_raimovie.html"
+  },
+  {
+    "name": "RAI PREMIUM",
+    "url": "https://easysite.one/z/Player/embed/Native/RaiPremium.php",
+    "type": "general",
+    "logo": "https://logos.streamsites.eu/2712_rai-premium_overview.png",
+    "tvGuide": "https://www.staseraintv.com/programmi_stasera_rai_premium.html"
+  },
+  {
+    "name": "RAI YO YO",
+    "url": "https://easysite.one/z/Player/embed/Native/RaiYoyo.php",
+    "type": "cartoon",
+    "logo": "https://logos.streamsites.eu/2670_rai-yoyo_overview.png",
+    "tvGuide": "https://www.staseraintv.com/programmi_stasera_rai_yoyo.html"
+  },
+  {
+    "name": "RAI GULP",
+    "url": "https://easysite.one/z/Player/embed/Native/RaiGulp.php",
+    "type": "general",
+    "logo": "https://logos.streamsites.eu/2672_rai-gulp_overview.png",
+    "tvGuide": "https://www.staseraintv.com/programmi_stasera_rai_gulp.html"
+  },
+  {
+    "name": "RAI NEWS 24",
+    "url": "https://easysite.one/z/Player/embed/Native/RaiNews.php?rel=0",
+    "type": "news",
+    "logo": "https://logos.streamsites.eu/2492_rainews_overview.png",
+    "tvGuide": "https://www.laguidatv.it/oggi/rai-news-24"
+  },
+  {
+    "name": "RAI STORIA",
+    "url": "https://easysite.one/z/Player/Channels/RaiStoria.php",
+    "type": "history",
+    "logo": "https://logos.streamsites.eu/2769_rai-storia-edu-_overview.png",
+    "tvGuide": "https://www.staseraintv.com/programmi_stasera_rai_storia.html"
+  },
+  {
+    "name": "RAI SPORT",
+    "url": "//ok.ru/videoembed/1831980048100?nochat=1&autoplay=1",
+    "type": "sport",
+    "logo": "https://logos.streamsites.eu/2692_raisport_overview.png",
+    "tvGuide": "https://www.staseraintv.com/programmi_stasera_rai_sport.html"
+  },
+  {
+    "name": "RETE 4",
+    "url": "https://easysite.one/z/Player/embed/Native/Ch4.php",
+    "type": "general",
+    "logo": "https://logos.streamsites.eu/3508_rete4_overview.png",
+    "tvGuide": "https://www.staseraintv.com/programmi_stasera_rete4.html"
+  },
+  {
+    "name": "CANALE 5",
+    "url": "https://easysite.one/z/Player/embed/Native/Ch5.php",
+    "type": "general",
+    "logo": "https://logos.streamsites.eu/3507_canale5_overview.png",
+    "tvGuide": "https://www.staseraintv.com/programmi_stasera_canale5.html"
+  },
+  {
+    "name": "ITALIA 1",
+    "url": "https://easysite.one/z/Player/embed/Native/Ch1.php",
+    "type": "general",
+    "logo": "https://logos.streamsites.eu/3514_iytalia1_overview.png",
+    "tvGuide": "https://www.staseraintv.com/programmi_stasera_italia1.html"
+  },
+  {
+    "name": "MEDIASET EXTRA",
+    "url": "https://easysite.one/z/Player/embed/Native/Ch9.php",
+    "type": "general",
+    "logo": "https://logos.streamsites.eu/3511_mextra_overview.png",
+    "tvGuide": "https://www.staseraintv.com/programmi_stasera_mediaset_extra.html"
+  },
+  {
+    "name": "MEDIASET DIRETTA",
+    "url": "https://www.mediasetplay.mediaset.it/diretta/canale5_cC5",
+    "type": "general",
+    "logo": "https://logos.streamsites.eu/2770_video-mediaset-diretta-tv_overview.png",
+    "tvGuide": "https://www.staseraintv.com/programmi_stasera_canale20mediaset.html"
+  },
+  {
+    "name": "LA 7",
+    "url": "//ok.ru/videoembed/1650103295716?nochat=1&autoplay=1",
+    "type": "general",
+    "logo": "https://logos.streamsites.eu/3416_la7_overview.png",
+    "tvGuide": "https://www.staseraintv.com/programmi_stasera_la7.html"
+  },
+  {
+    "name": "LA 7d",
+    "url": "//ok.ru/videoembed/1488130350820?nochat=1&autoplay=1",
+    "type": "general",
+    "logo": "https://vignette.wikia.nocookie.net/logopedia/images/9/98/La7d.png/revision/latest/scale-to-width-down/220?cb=20170717182136",
+    "tvGuide": "https://www.staseraintv.com/programmi_stasera_la7d.html"
+  },
+  {
+    "name": "CANALE 8",
+    "url": "//ok.ru/videoembed/1853474217700?nochat=1&autoplay=1",
+    "type": "general",
+    "logo": "https://www.thismarketerslife.it/site/wp-content/uploads/2016/03/TV8-300x284.jpg",
+    "tvGuide": "https://www.staseraintv.com/programmi_stasera_tv8.html"
+  },
+  {
+    "name": "CANALE 9",
+    "url": "https://easysite.one/z/Player/embed/Native/Nove.php",
+    "type": "general",
+    "logo": "https://th.bing.com/th/id/OIP.rn9Zrrho7TFGsacnjldukwHaHa?w=173&h=180&c=7&o=5&dpr=1.5&pid=1.7",
+    "tvGuide": "https://www.staseraintv.com/programmi_domani_nove.html"
+  },
+  {
+    "name": "IRIS",
+    "url": "https://easysite.one/z/Player/embed/Native/Ch7.php",
+    "type": "general",
+    "logo": "https://rp356d2g7k228jd32x871cqq-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/iris-tv-1.jpg",
+    "tvGuide": "https://www.staseraintv.com/programmi_ieri_iris.html"
+  },
+  {
+    "name": "CIELO",
+    "url": "https://easysite.one/z/Player/embed/Native/Cielo.php",
+    "type": "general",
+    "logo": "https://logos.streamsites.eu/2700_cielo-tv_overview.png",
+    "tvGuide": "https://www.staseraintv.com/programmi_stasera_cielo.html"
+  },
+  {
+    "name": "FOCUS",
+    "url": "https://easysite.one/z/Player/embed/Native/Focus.php",
+    "type": "doumentary",
+    "logo": "https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/107429071_100729015053128_7541527624601769653_n.jpg?_nc_cat=100&_nc_sid=6e5ad9&_nc_ohc=Kj4plEECtDMAX8eNJey&_nc_ht=scontent-lht6-1.xx&oh=38f61470c97c6af0a948c888fe081c3b&oe=5F7B3079",
+    "tvGuide": "https://www.staseraintv.com/programmi_stasera_focustv.html"
+  },
+  {
+    "name": "FRISBEE",
+    "url": "https://easysite.one/z/Player/Channels/Frisbee.php",
+    "type": "young",
+    "logo": "//upload.wikimedia.org/wikipedia/it/7/7a/FRISBEE_2013.png",
+    "tvGuide": "https://www.staseraintv.com/programmi_stasera_frisbee.html"
+  },
+  {
+    "name": "SUPER",
+    "url": "https://easysite.one/z/Player/Channels/Super.php",
+    "type": "general",
+    "logo": "http://3.bp.blogspot.com/-5FWnpo8mCPA/UH2eDD8w5iI/AAAAAAAAAEk/E0H3bcB_c-Y/s1600/super_channel_logo.png",
+    "tvGuide": "https://www.staseraintv.com/programmi_stasera_super.html"
+  },
+  {
+    "name": "SKY TG 24",
+    "url": "//ok.ru/videoembed/1831976771300",
+    "type": "news",
+    "logo": "https://logos.streamsites.eu/2283_sky-life-tg-24_overview.png",
+    "tvGuide": "https://www.staseraintv.com/programmi_stasera_sky_tg24.html"
+  },
+  {
+    "name": "DMAX",
+    "url": "https://easysite.one/z/Player/embed/Native/Dmax.php",
+    "type": "doumentary",
+    "logo": "https://th.bing.com/th/id/OIP.lNwJOeSIql3HYhgleW8FVwHaCu?w=331&h=128&c=7&o=5&dpr=1.5&pid=1.7",
+    "tvGuide": "https://www.staseraintv.com/programmi_stasera_dmax.html"
+  },
+  {
+    "name": "MOTOR TREND",
+    "url": "https://easysite.one/z/Player/embed/Native/MotorTrend.php",
+    "type": "sport",
+    "logo": "https://johndagys-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/motortrend2.jpg",
+    "tvGuide": "https://www.staseraintv.com/programmi_stasera_motor_trend.html"
+  },
+  {
+    "name": "SPORTITALIA",
+    "url": "https://www.sportitalia.com/it-int/playerpage/57561",
+    "type": "sport",
+    "logo": "https://logos.streamsites.eu/2506_sport-italia_overview.png",
+    "tvGuide": "https://www.staseraintv.com/programmi_stasera_sportitalia.html"
+  },
+  {
+    "name": "TGCOM",
+    "url": "https://www.tgcom24.mediaset.it/video/",
+    "type": "news",
+    "logo": "https://logos.streamsites.eu/2964_diretta-tgcom24-mediaset_overview.png",
+    "tvGuide": "https://www.programmitv.com/canale/tgcom24"
+  },
+  {
+    "name": "TOP CALCIO 24",
+    "url": "https://www.youtube.com/embed/TJDc7BbqLMU",
+    "type": "sport",
+    "logo": "https://live-tv-channels.org/pt-data/uploads/logo/it-top-calcio-24-7160-316x237.jpg",
+    "tvGuide": "http://guida-tv.org/canale/top-calcio-24"
+  },
+  {
+    "name": "Euronews (Italia)",
+    "url": "https://www.youtube.com/embed/MFoFVdebIsU?controls=0&modestbranding=1&rel=0&showinfo=0&loop=0&fs=0&hl=en&widget_referrer=http%3A%2F%2Fwww.freeintertv.com%2Fview%2Fid-2450%2FItaly-1-1-1&enablejsapi=1&origin=http%3A%2F%2Fwww.freeintertv.com&widgetid=1",
+    "type": "news",
+    "logo": "https://vectorlogoseek.com/wp-content/uploads/2019/09/euronews-vector-logo.png",
+    "tvGuide": "https://www.programmitv.com/canale/euronews"
+  },
+  {
+    "name": "Canale 21",
+    "url": "http://player.sloode.com/canale21/player.php",
+    "type": "general",
+    "logo": "http://js.ilnapolionline.com/wp-content/uploads/2018/07/Canale-21.png?x68343",
+    "tvGuide": ""
+  },
+  {
+    "name": "Teleluna",
+    "url": "https://streamlive14.arcapuglia.it:8080/teleluna.html",
+    "type": "general",
+    "logo": "http://www.capritube.it/images/TV-LUNA.jpeg",
+    "tvGuide": ""
+  },
+  {
+    "name": "Being SPORTS HD1",
+    "url": "https://csport.xyz/t/1/1.php",
+    "type": "sport",
+    "logo": "https://cdn.bein.com/fr/wp-content/uploads/2017/04/bein-sports-1-hero.png",
+    "tvGuide": ""
+  },
+  {
+    "name": "Being SPORTS HD2",
+    "url": "https://channelstream.club/stream/bein_2.php",
+    "type": "sport",
+    "logo": "https://i0.wp.com/www.millereponses.com/wp-content/uploads/2018/08/Frequence-Bein-Sport-News-HD.png?ssl=1",
+    "tvGuide": ""
+  },
+  {
+    "name": "Being SPORTS HD3",
+    "url": "https://channelstream.club/stream/bein_3.php",
+    "type": "sport",
+    "logo": "https://a.top4top.net/p_403r2jd22.png",
+    "tvGuide": ""
+  },
+  {
+    "name": "Canal+ Sport",
+    "url": "https://channelstream.club/stream/canal_sport.php",
+    "type": "sport",
+    "logo": "https://vignette.wikia.nocookie.net/tvfanon6528/images/3/31/Canal%2B_Sport_%282015-.n.v.%29.png/revision/latest?cb=20171104153456",
+    "tvGuide": ""
+  },
+  {
+    "name": "Canal+ Sport Week end",
+    "url": "https://channelstream.club/stream/canal_decale.php",
+    "type": "sport",
+    "logo": "https://vignette.wikia.nocookie.net/logopedia/images/d/d6/Canal_Sport_Week-end_Logo.png/revision/latest/scale-to-width-down/340?cb=20191006162239",
+    "tvGuide": ""
+  }
+]

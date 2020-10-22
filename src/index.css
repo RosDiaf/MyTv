@@ -11,3 +11,141 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.modal-lg {
+  max-width: 1000px;
+}
+
+.sthicon {
+  background: url(https://cdn.staticdata.site/site/st/img/sthicon.png) 0 0
+    no-repeat;
+  height: 64px;
+  width: 64px;
+  display: block;
+}
+
+.sthicon.f1 {
+  background-position: 0 -790px;
+}
+
+.sthicon.motogp {
+  background-position: 0 -1343px;
+}
+
+.sthicon.motorsports {
+  background-position: 0 -1580px;
+}
+
+.sthicon.nascar {
+  background-position: 0 -1422px;
+}
+
+.sthicon.tennis {
+  background-position: 0 -2054px;
+}
+
+.sthicon.golf {
+  background-position: 0 -948px;
+}
+
+.sthicon.rugby {
+  background-position: 0 -1659px;
+}
+
+.sthicon.aussie-football {
+  background-position: 0 0;
+}
+
+.sthicon.football {
+  background-position: 0 -869px;
+}
+
+.sthicon.ufc {
+  background-position: 0 -2212px;
+}
+
+.sthicon.wwe {
+  background-position: 0 -2449px;
+}
+
+.sthicon.boxing,
+.sthicon.fighting {
+  background-position: 0 -395px;
+}
+
+.sthicon.nfl {
+  background-position: 0 -79px;
+}
+
+.sthicon.basketball {
+  background-position: 0 -237px;
+}
+
+.sthicon.baseball {
+  background-position: 0 -158px;
+}
+
+.sthicon.hockey {
+  background-position: 0 -1106px;
+}
+
+.sthicon.darts {
+  background-position: 0 -632px;
+}
+
+.sthicon.cycling {
+  background-position: 0 -553px;
+}
+
+.sthicon.handball {
+  background-position: 0 -1027px;
+}
+
+.sthicon.volleyball {
+  background-position: 0 -2291px;
+}
+
+.sthicon.badminton {
+  background-position: 0 -1817px;
+}
+
+.sthicon.eight-ball {
+  background-position: 0 -711px;
+}
+
+.sthicon.horse {
+  background-position: 0 -1185px;
+}
+
+.sthicon.others {
+  background-position: 0 -1501px;
+}
+
+/* CHANNEL LOGOS */
+.stb1 {
+  float: left;
+  display: block;
+  width: 42px;
+  height: 41px;
+  text-align: center;
+  text-indent: -9999px;
+}
+
+.rai2 {
+  background: url(./assets/img/channels-logo.jpg) -40px 0;
+}
+
+.tv-logo {
+  max-width: 100%;
+  max-height: 70px;
+}
+
+.tvGuide p {
+  font-weight: bold;
+  background: #d7d7d7;
+  padding: 10px;
+}
+
+.channels {
+  justify-content: center;
+}
