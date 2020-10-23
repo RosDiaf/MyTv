@@ -12,6 +12,9 @@ code {
     monospace;
 }
 
+.modal-backdrop {
+  display: none;
+}
 .modal-lg {
   max-width: 1000px;
 }

@@ -25,26 +25,21 @@ app.get("/api/hello", (req, res) => {
   res.send({ express: "Hello From Express" });
 });
 
-// app.post("/api/world", (req, res) => {
-//   console.log(req.body);
-//   res.send(
-//     `I received your POST request. This is what you sent me: ${req.body.post}`
-//   );
-// });
-
 
 // -- Get TV Guide
-async function getTvGuideByOne() {
-  await tvGuide.getTVGuideRAI1().then((result) => {
+async function getTvGuideByOne(tvGuideId) {
+  await tvGuide.getTVGuide(tvGuideId).then((result) => {
     console.log("tvGuideList: ", result)
-    tvGuideList.push(result);
+    tvGuideList = [...result];
   });
 }
-getTvGuideByOne();
+//getTvGuideByOne();
 // -- End
 
 
-app.get("/api/channels", (req, res) => {
+app.get("/api/channels/:id", (req, res) => {
+  console.log(req.params.id)
+  getTvGuideByOne(req.params.id);
   res.send({
     tvGuideList: tvGuideList
   });

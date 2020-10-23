@@ -12,7 +12,6 @@ async function getData(channelUrl) {
   try {
     const url = channelUrl;
     const { data } = await axios.get(url);
-    console.log(data);
     const $ = _cheerio.load(data);
 
     const guide = $("h4").html();
@@ -40,8 +39,8 @@ async function getDataV2(channelUrl, elem) {
   }
 }
 
-function getTVGuideRAI1() {
-  return getData(channelsDataSource[0].tvGuide);
+function getTVGuide(tvGuideId) {
+  return getData(channelsDataSource[tvGuideId].tvGuide);
 }
 
 async function getTVGuideRAI2() {
@@ -201,7 +200,8 @@ async function getTVGuideEuroNews() {
 }
 
 module.exports = {
-  getTVGuideRAI1,
+  getTVGuide,
+  //getTVGuideRAI1,
   getTVGuideRAI2,
   getTVGuideRAI3,
   getTVGuideRAI4,

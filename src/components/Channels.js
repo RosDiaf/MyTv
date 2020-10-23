@@ -64,33 +64,58 @@ class Channels extends Component {
   }
 
   createTVGuide(divElm, tvGuideItems) {
-    // let tvGuideItemsArr = tvGuideItems.split(",");
-    // tvGuideItemsArr.pop();
-    // tvGuideItemsArr.forEach(createItem);
-    tvGuideItems[0].forEach(createItem);
+    tvGuideItems.pop()
+    tvGuideItems.forEach(createItem);
     function createItem(item) {
       divElm.innerHTML += `<p>${item}</p>`;
     }
   }
 
+  async appendGuideListToDialog(res, index) {
+    //await this.setState({ tvGuideList: res.tvGuideList })
+    // this.setState(prevState => {
+    //   return {
+    //     ...prevState.tvGuideList,
+    //     tvGuideList: res.tvGuideList
+    //   };
+    // });
+    
+    const tvGuideList = res.tvGuideList
+    await new Promise(resolve => {
+      this.setState({ tvGuideList: ["one", "two"] }, () => resolve())
+      console.log(this.state.tvGuideList)
+    })
+    
+    
+    let divElm = document.createElement("div");
+    divElm.setAttribute("class", "tvGuide");
+    divElm.id = `tvGuide_${index}`;
+  
+    this.createTVGuide(divElm, this.state.tvGuideList);
+    this.setState({modalId: index})
+    document.getElementById('modal-body-' + index).appendChild(divElm);
+  }
+
+  /* 
+  setState doesn't update the state immediately
+  https://stackoverflow.com/questions/41278385/setstate-doesnt-update-the-state-immediately
+  https://ozmoroz.com/2018/11/why-my-setstate-doesnt-work/
+  
+  */
   async showTVGuide(url, index) {
-    this.callApi("/api/channels")
+    await this.callApi(`/api/channels/${index}`)
       .then((res) => {
-        console.log(res.tvGuideList)
-        this.setState({ tvGuideList: res.tvGuideList })
+        //this.setState(state => ({ ...state, tvGuideList: res.tvGuideList }));
+        this.setState({ tvGuideList: res.tvGuideList }, () => {                              
+          //callback
+          console.log(res.tvGuideList)
+        });
+
+        // if (res.tvGuideList.length > 0) {
+        //   this.appendGuideListToDialog(res, index)
+        // }
       })
       .catch((err) => console.log(err));
-    
-    if (this.state.tvGuideList.length) {
-      console.log("Show TvGuide: ", this.state.tvGuideList);
-      let divElm = document.createElement("div");
-      divElm.setAttribute("class", "tvGuide");
-      divElm.id = `tvGuide_${index}`;
-    
-      this.createTVGuide(divElm, this.state.tvGuideList);
-      this.setState({modalId: index})
-      document.getElementById('modal-body-' + index).appendChild(divElm);
-    }
   }
 
   render() {
